@@ -1,0 +1,13 @@
+.main{
+    position: relative;
+}
+.main::before{
+    content: '';
+    background-image: url('https://img.freepik.com/free-photo/medium-shot-specialized-photographer-working-studio_23-2150247206.jpg?t=st=1719826982~exp=1719830582~hmac=f66430e6010ac82f850148b6b10acfa8026faadfedb47f14df80675475ad2872&w=1380');
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.45;
+}
